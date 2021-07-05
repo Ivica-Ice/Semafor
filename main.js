@@ -1,18 +1,18 @@
 
 function semafor() {
-    var boje = document.getElementsByClassName('boje');
-    boje[0].style.background = 'red';
-    boje[1].style.background = 'grey';
-    boje[2].style.background = 'grey';
+    var boja = document.getElementsByClassName('boja');
+    boja[0].style.background = 'red';
+    boja[1].style.background = 'grey';
+    boja[2].style.background = 'grey';
 
     function changeToYellow() {
-        boje[1].style.background = 'yellow';
+        boja[1].style.background = 'yellow';
     }
 
     function changeToGreen() {
-        boje[0].style.background = 'grey';
-        boje[1].style.background = 'grey';
-        boje[2].style.background = 'green';
+        boja[0].style.background = 'grey';
+        boja[1].style.background = 'grey';
+        boja[2].style.background = 'green';
     }
 
     var x = setTimeout(changeToYellow, 3000);
