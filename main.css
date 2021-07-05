@@ -1,12 +1,13 @@
 #semafor {
     width: 350px;
-    height: 1000px;
-    border: 1px solid silver;
-    border-radius: 20px;
-    margin-left: 500px;
+    height: 1020px;
+    border: 9px solid silver;
+    border-radius: 100px;
+    margin: 300px;
+    background-color: black;
 }
 
-.boje{
+.boja{
     width: 300px;
     height: 300px;
     border: 1px solid silver;
